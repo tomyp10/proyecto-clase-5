@@ -43,7 +43,7 @@ span {
 /* display grid -> grillas | filas y columnas */
 
 section {
-  background-color: wheat;
+  background: linear-gradient(135deg, #d9d9d9, #4d4d4d);
   padding: 20px;
   /* display flex cambia el eje pricipal */
   /* display: flex; */
@@ -89,9 +89,14 @@ p {
 
 div button {
   border: none;
-  background-color: rgb(178, 233, 227);
+  background-color: rgba(69, 175, 175, 0.356);
   padding: 8px 16px;
   border-radius: 10px;
   display: block;
   margin: auto;
-}
+  cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgba(47, 126, 115, 0.507)
+  }
